@@ -208,16 +208,30 @@ Mixins & Extensions
 /* Sticky footer styles
 -------------------------------------------------- */
 footer {
-  margin-top: 25px;
-  float: left;
-  width: 100%;
-  background: white; }
+  padding: 25px 0;
+  text-align: center; }
+
+footer .container {
+  padding-bottom: 5px; }
+
+footer .quickLinks li a {
+  color: white; }
+
+footer .pageLinks li a {
+  color: white; }
 
 .navbar {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  background: #c70122; }
+
+.navbar .active {
+  background: #e6e6e6; }
+
+.container {
+  opacity: 0.90; }
 
 .full {
-  height: 1200px;
+  height: 100%;
   background: url("Soccer-field.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -225,7 +239,7 @@ footer {
   -o-background-size: cover; }
 
 .container {
-  background: white; }
+  background: #c70122; }
 
 /* =Links */
 img {

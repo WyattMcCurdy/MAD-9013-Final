@@ -1,5 +1,27 @@
 @import "main";
 
+.container{
+opacity: 0.90;
+}
+
+footer .container{
+opacity: 0.95;
+padding-top: 15px;
+border-radius: 5px;
+//background: white;
+}
+
 .btn-group{
 margin-bottom: 25px;
 }
+
+
+.table-striped tbody tr:nth-child(2n+1) td, .table-striped tbody tr:nth-child(2n+1) th {
+  color: $darker-secondary;
+}
+
+.icon-bar{
+background: $Third-color;
+}
+
+

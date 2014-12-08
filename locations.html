@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/main.css">
+    <script src="js/locations.js"></script>
+    <link rel="stylesheet" href="css/locations.css">
 </head>
 
 <body class="full">
@@ -27,7 +28,7 @@
         <span class="icon-bar"></span>
       </button>
        
-      <a class="navbar-brand" href="">Brand</a>
+      <a class="navbar-brand" href="">Gunners</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -43,16 +44,53 @@
 </nav>
     
     <!--IMG GRID-->
-    
-    <ul class="small-block-grid-3">
-  <li><!-- Your content goes here --></li>
-  <li><!-- Your content goes here --></li>
-  <li><!-- Your content goes here --></li>
-</ul>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">         
+          <div class="modal-body">                
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="container">
+        <h2>Field Locations</h2>
+        <p>There are several fields in the National Capital area that field the teams of the Gunners Soccer League. Of the fields used several are found in the Greater Ottawa area such as the <b>Nepean Hotspurs Soccer Club</b>, the <b>Ottawa St-Anthony Italia Soccer Club</b> and the <b>Cumberland United-Unis Soccer Club</b>.</p>
+   <ul class="list">
+       <li><img class="apiImg col-lg-4  col-md-4 col-sm-6 col-xs-6" src='http://placehold.it/500x500'/></li>
+       <li><img class="col-lg-4 col-md-4 col-sm-6 col-xs-6" src='http://placehold.it/500x500'/></li>
+       <li><img class="apiImg col-lg-4 col-md-4 col-sm-6 col-xs-6" src='http://placehold.it/500x500'/></li>
+       <li><img class="apiImg col-lg-4 col-md-4 col-sm-6 col-xs-6" src='http://placehold.it/500x500'/></li>
+       <li><img class="apiImg col-lg-4 col-md-4 col-sm-6 col-xs-6" src='http://placehold.it/500x500'/></li>
+       <li><img class="apiImg col-lg-4 col-md-4 col-sm-6 col-xs-6" src='http://placehold.it/500x500'/></li>
+   </ul>
+</div>
     
 <footer>
-    <p>This is the ****ed up footer</p>
-</footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Your Website 2014</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline pageLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="standings.html">Standings</a></li>
+        <li class="active"><a>Locations</a></li>
+        <li><a href="sign-up.html">Sign Up</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quickLinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>

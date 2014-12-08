@@ -8,11 +8,19 @@
 
 .navbar{
 margin-bottom: 20px;
+background: $Primary-color;
 }
 
+.navbar .active{
+background: $Secondary-color;
+}
+
+.container{
+opacity: 0.90;
+}
 
 .full {
-    height: 1200px;
+    height: 100%;
     background: url('Soccer-field.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -21,7 +29,7 @@ margin-bottom: 20px;
 }
 
 .container{
-background: white;
+background: $Primary-color;
 }
 
 .btn-primary{
@@ -40,11 +48,11 @@ background: white;
 //}
 
 /* =Links */
-//a           {  }
-//a:hover     {  }
-//a:focus     {  } 
-//a:hover, 
-//a:active    {  }
+a           { }
+a:hover     { }
+a:focus     {  } 
+a:hover, 
+a:active    {  }
 
 img     { vertical-align: middle; max-width: 100%; height: auto; }
 //hr      { border-top: 1px solid #ccc; display: block; height: 1px; border: 0; margin: 1em 0; padding: 0; }

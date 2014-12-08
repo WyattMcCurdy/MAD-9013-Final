@@ -1,9 +1,19 @@
 /* Sticky footer styles
 -------------------------------------------------- */
-footer{
-margin-top: 25px;
+footer {
+padding: 25px 0;
+text-align: center;
+    //color:;
+}
 
-float: left;
-width: 100%;
-background: white;
+footer .container{
+padding-bottom: 5px;
+}
+
+footer .quickLinks li a{
+color: white;
+}
+
+footer .pageLinks li a{
+color: white;
 }

@@ -248,43 +248,27 @@ img {
   height: auto; }
 
 .container {
+  opacity: 0.95;
   padding-top: 15px;
   border-radius: 5px; }
 
-.left-group {
-  padding-top: 0px;
-  text-align: center; }
+.list {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0; }
 
-.smallImg {
-  margin-bottom: 15px;
-  width: 50%; }
+.list li {
+  list-style: none;
+  margin-bottom: 25px; }
 
-.left-group p {
-  margin-bottom: 15px;
-  line-height: 30px; }
+.list li img {
+  cursor: pointer;
+  padding-bottom: 20px; }
 
-.left-group h2 {
-  margin-bottom: 15px; }
+.modal-body {
+  margin-left: 35px; }
 
-@media all and (max-width: 990px) and (min-width: 769px) {
-  .left-group h2 {
-    margin-top: 1px; } }
-@media all and (max-width: 768px) and (min-width: 400px) {
-  .container {
-    border-radius: 0px; } }
-@media all and (max-width: 530px) and (min-width: 400px) {
-  .left-group h2 {
-    font-size: 20px;
-    margin-bottom: 10px; }
+@media all and (max-width: 767px) and (min-width: 400px) {
+  .modal-body {
+    margin-left: 0px; } }
 
-  .left-group p {
-    margin-bottom: 10px;
-    line-height: 20px; } }
-@media all and (max-width: 768px) and (min-width: 400px) {
-  .smallImg {
-    width: 90%; } }
-@media only screen and (max-width: 480px) {
-  .smallImg {
-    display: none; } }
-
-/*# sourceMappingURL=sign-up.css.map */
+/*# sourceMappingURL=locations.css.map */

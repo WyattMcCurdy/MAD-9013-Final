@@ -208,16 +208,30 @@ Mixins & Extensions
 /* Sticky footer styles
 -------------------------------------------------- */
 footer {
-  margin-top: 25px;
-  float: left;
-  width: 100%;
-  background: white; }
+  padding: 25px 0;
+  text-align: center; }
+
+footer .container {
+  padding-bottom: 5px; }
+
+footer .quickLinks li a {
+  color: white; }
+
+footer .pageLinks li a {
+  color: white; }
 
 .navbar {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  background: #c70122; }
+
+.navbar .active {
+  background: #e6e6e6; }
+
+.container {
+  opacity: 0.90; }
 
 .full {
-  height: 1200px;
+  height: 100%;
   background: url("Soccer-field.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -225,13 +239,19 @@ footer {
   -o-background-size: cover; }
 
 .container {
-  background: white; }
+  background: #c70122; }
 
 /* =Links */
 img {
   vertical-align: middle;
   max-width: 100%;
   height: auto; }
+
+.container {
+  opacity: 0.95;
+  padding-top: 15px;
+  border-radius: 5px;
+  background: #c70122; }
 
 .jumbotron {
   height: 500px;
@@ -243,10 +263,60 @@ img {
   color: white;
   text-shadow: black 0.3em 0.3em 0.3em; }
 
-@media all and (max-width: 767px) and (min-width: 400px) {
-  .jumbotron {
-    height: 50%; } }
+.navbar {
+  background: #c70122; }
+
+.navbar .active {
+  background: #e6e6e6; }
+
+.btn-primary {
+  background: #c70122; }
+
+.btn:hover {
+  background: #e6e6e6; }
+
+.about p {
+  margin-bottom: 15px;
+  line-height: 30px; }
+
+.rightSide {
+  padding-top: 55px; }
+
+.about h2 {
+  margin-bottom: 15px; }
+
 .homeContent {
   margin-top: 15px; }
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .jumbotron {
+    height: 450px;
+    background-image: url("Home-img.jpg"); } }
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .jumbotron {
+    height: 400px;
+    background-image: url("Team-img-black.jpg"); } }
+/* Small Devices, Tablets */
+@media all and (max-width: 768px) and (min-width: 400px) {
+  .jumbotron {
+    height: 300px;
+    background-image: url("Team-img-white.png"); }
+
+  .jumbotron h1 {
+    margin-top: 100px; }
+
+  .rightSide {
+    padding-top: 0px;
+    margin-top: 0px; } }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .jumbotron h1 {
+    margin-top: 0px; }
+
+  .jumbotron {
+    height: 200px;
+    background-image: url("Team-img-red.png"); } }
 
 /*# sourceMappingURL=home.css.map */
