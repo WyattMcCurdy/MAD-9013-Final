@@ -1,0 +1,70 @@
+@import "normalize";
+
+@import "variables";
+
+@import "mixins";
+
+@import "footer";
+
+.navbar{
+margin-bottom: 20px;
+}
+
+
+.full {
+    height: 1200px;
+    background: url('Soccer-field.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.container{
+background: white;
+}
+
+.btn-primary{
+//background: red;
+}
+
+//body { 
+  //font-size: 1em;
+ // font-family: $font-primary;
+ // -webkit-font-smoothing: antialiased;
+ // -moz-font-smoothing: antialiased;
+  //text-rendering: optimizeLegibility;
+ // -webkit-text-size-adjust: 100%; 
+ // -ms-text-size-adjust: 100%; 
+ // text-size-adjust: 100%; 
+//}
+
+/* =Links */
+//a           {  }
+//a:hover     {  }
+//a:focus     {  } 
+//a:hover, 
+//a:active    {  }
+
+img     { vertical-align: middle; max-width: 100%; height: auto; }
+//hr      { border-top: 1px solid #ccc; display: block; height: 1px; border: 0; margin: 1em 0; padding: 0; }
+
+h1, h2, h3, h4, h5 ,h6 { }
+
+h1 { }
+h2 { }
+h3 { }
+h4 { }
+h5 { }
+h6 { }
+
+ul, ol, dl  { }
+p           { }
+ul          { }
+
+strong { }
+em { }
+
+//@media only screen and (min-width: $breakpoint-large) {
+  //h1 {  }
+//}

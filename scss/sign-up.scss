@@ -1,0 +1,55 @@
+@import "main";
+
+body{
+//background: grey;
+}
+.container{
+padding-top: 15px;
+border-radius: 5px;
+//background: white;
+}
+
+.left-group{
+padding-top: 0px;
+text-align: center;
+}
+
+
+.left-group p{
+margin-bottom: 15px;
+line-height: 30px;
+}
+
+.left-group h2{
+margin-bottom: 15px;
+}
+
+@media all and (max-width: 990px) and (min-width: 769px){
+
+.left-group h2{
+margin-top: 1px;
+}
+
+}
+
+@media all and (max-width: 768px) and (min-width: 400px){
+
+.container{
+border-radius: 0px;
+}
+
+}
+
+@media all and (max-width: 530px) and (min-width: 400px){
+
+.left-group h2{
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.left-group p{
+margin-bottom: 10px;
+line-height: 20px;
+}
+    
+}
