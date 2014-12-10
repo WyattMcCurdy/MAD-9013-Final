@@ -3,6 +3,7 @@
 body{
 //background: grey;
 }
+
 .container{
 padding-top: 15px;
 border-radius: 5px;
@@ -11,11 +12,6 @@ border-radius: 5px;
 .left-group{
 padding-top: 0px;
 text-align: center;
-}
-
-.smallImg{
-margin-bottom: 15px;
-width: 50%
 }
 
 .left-group p{
@@ -56,19 +52,3 @@ line-height: 20px;
 }
     
 }
-
- @media all and (max-width: 768px) and (min-width: 400px){
- 
-.smallImg{
-width: 90%;
-}
-     
- }
-
-@media only screen and (max-width : 480px) {
-    
-.smallImg{
-display: none;
-}
-    
-  }

@@ -258,10 +258,20 @@ footer .container {
 .btn-group {
   margin-bottom: 25px; }
 
+.table {
+  background: #808080; }
+
 .table-striped tbody tr:nth-child(2n+1) td, .table-striped tbody tr:nth-child(2n+1) th {
   color: #808080; }
 
-.icon-bar {
-  background: white; }
+@media only screen and (max-width: 768px) {
+  .mvp {
+    display: none; } }
+@media only screen and (max-width: 480px) {
+  .goals {
+    display: none; }
+
+  .mvp {
+    display: none; } }
 
 /*# sourceMappingURL=standings.css.map */

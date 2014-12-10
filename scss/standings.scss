@@ -15,13 +15,30 @@ border-radius: 5px;
 margin-bottom: 25px;
 }
 
+.table{
+background: $darker-secondary;
+}
+
 
 .table-striped tbody tr:nth-child(2n+1) td, .table-striped tbody tr:nth-child(2n+1) th {
   color: $darker-secondary;
 }
 
-.icon-bar{
-background: $Third-color;
+    @media only screen and (max-width : 768px) {
+.mvp{
+display: none;
 }
+    }
 
+@media only screen and (max-width : 480px) {
+    
+.goals{
+display: none;
+}
+    
+.mvp{
+display: none;
+}
+    
+  }
 

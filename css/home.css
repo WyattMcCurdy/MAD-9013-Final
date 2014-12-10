@@ -270,6 +270,7 @@ img {
   background: #e6e6e6; }
 
 .btn-primary {
+  border: #e6e6e6;
   background: #c70122; }
 
 .btn:hover {
